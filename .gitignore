@@ -1,0 +1,6 @@
+# Eclipse workspace junk
+.metadata/
+.settings/
+bin/
+*.class
+*.log
