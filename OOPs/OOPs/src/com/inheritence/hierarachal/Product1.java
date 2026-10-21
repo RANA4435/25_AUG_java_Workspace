@@ -1,6 +1,7 @@
 package com.inheritence.hierarachal;
 
 public class Product1 {
+	
 
 }
 
