@@ -1,0 +1,35 @@
+package com.inheritence.multilevel;
+
+class Account {
+	public void openAccount(String name) {
+		System.out.println("openAccount...."+name);
+	}
+    
+}
+class SavingAccount extends Account{
+	public void savingAccount(int age) {
+		System.out.println("SavingAccount..."+age);
+	}
+}
+class SeniorCit extends Account{
+	public void accountSeniorCit(String pan) {
+		System.out.println("accountSeniorCit....."+pan);
+	}
+}
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account acc = new Account();
+		acc.openAccount("Kamdev");
+		
+		SavingAccount saving = new SavingAccount();
+		saving.savingAccount(20);
+		
+		SeniorCit cit = new SeniorCit();
+		cit.accountSeniorCit("GZIPR2667M");
+
+	}
+
+}
