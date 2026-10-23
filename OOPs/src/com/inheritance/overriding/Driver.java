@@ -16,6 +16,10 @@ public class Driver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//method name should be as the parents class method
+		//type,numbers of args and the other of args 
+		//Access modifier should be same public-->public or it should be widen
+		// Return name should be except covariant
 		Account acc = new Account();
 		acc.openAccount("Kamdev", 20);
 		

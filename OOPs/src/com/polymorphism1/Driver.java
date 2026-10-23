@@ -19,6 +19,7 @@ public class Driver {
 //		emp.markIn();
 //		
 		Employee emp1 = new HRManager();//parents class is reffering the child class 
+		System.out.println(emp1.hashCode());
 		emp1.markIn();//same method will behave differently based on the situation 
 		//at the time of compilation it will check the method exist in the class
 		//at the time of execution(while running )it will call the actual method
