@@ -10,7 +10,8 @@ class Calculator{
 public class Driver {
 	public static void main(String[] args) {
 		// in static method we do not need to create a object to call it
-		Calculator.add(3, 7);
+		Calculator cal = new Calculator();
+		cal.add(3, 7);
 	}
 
 }
