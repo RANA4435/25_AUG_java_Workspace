@@ -6,7 +6,7 @@ class AccountMgmt// this class can not become parents
 	
 	public final void doSomething1() 
 	{
-		 UPI_Limit=200000;// able to change the value before the final after this if u need to change or assign the value u need to take the other variable
+		 //UPI_Limit=200000;// able to change the value before the final after this if u need to change or assign the value u need to take the other variable
 		 int UPI_Limit=2000000; // this is the example 
 	}
 	 public void doSomething2() 

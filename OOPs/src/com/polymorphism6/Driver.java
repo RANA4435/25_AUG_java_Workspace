@@ -28,10 +28,10 @@ public class Driver {
 		Area area = new Area();
 		area.doArea(0, 0);
 		
-		Area area1 = new Rectangle();
+		Area area1 = new Rectangle();//runtime polymorphism
 		area1.doArea(7, 9);
 		
-		Square square = new Square();
+		Square square = new Square();//compile time overloading  polymorphism
 		square.doArea(3);
 
 	}
