@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Array/src"/>
+	<classpathentry kind="src" path="Constructor/Constructor12/src"/>
+	<classpathentry kind="src" path="Constructor/src"/>
+	<classpathentry kind="src" path="ControlFlow/src"/>
+	<classpathentry kind="src" path="Loop/src"/>
+	<classpathentry kind="src" path="ObjectCreation/src"/>
+	<classpathentry kind="src" path="OOPs/src"/>
+	<classpathentry kind="src" path="Scanner/src"/>
+	<classpathentry kind="src" path="String/src"/>
+	<classpathentry kind="src" path="StringBuilder.StringBuuffer/src"/>
+	<classpathentry kind="output" path="Array/bin"/>
+</classpath>
