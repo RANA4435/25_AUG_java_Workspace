@@ -25,6 +25,10 @@ public class FlightBooking implements IBooking {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	void printTicket(String path,String contents) {
+		IBooking.printTicket("", "");
+	}
+
 
 	
 

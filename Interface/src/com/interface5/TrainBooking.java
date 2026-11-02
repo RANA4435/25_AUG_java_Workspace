@@ -43,5 +43,9 @@ public class TrainBooking implements IBooking {
 		System.out.println("TrainBooking.autoUpgrade()............");
 		
 	}
+	void printTicket(String path,String contents) {
+		IBooking.printTicket("", "");
+	}
+
 
 }

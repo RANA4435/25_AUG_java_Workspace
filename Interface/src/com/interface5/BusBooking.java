@@ -32,6 +32,10 @@ public class BusBooking implements IBooking {
 		SearchResult result = new SearchResult();
 		return result;
 	}
+	void printTicket(String path,String contents) {
+		IBooking.printTicket("", "");
+	}
+
 
 
 }
