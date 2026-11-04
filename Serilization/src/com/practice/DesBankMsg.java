@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 public class DesBankMsg {
 	
 	public void deMsgBank() throws IOException, ClassNotFoundException {
-	FileInputStream fis = new FileInputStream("C:\\Users\\kamde\\OneDrive\\Desktop\\newKamdev\\25_AUG_java_Workspace\\Serilization\\src\\com\\practice\\bank.ser");
+	FileInputStream fis = new FileInputStream("C:\\Users\\kamde\\OneDrive\\Desktop\\newKamdev\\25_AUG_java_Workspace\\Serilization\\src\\com\\practice\\bank.ser6");
 	ObjectInputStream ois = new ObjectInputStream(fis);
 	
 	 Bank bank = (Bank)ois.readObject();
