@@ -6,6 +6,7 @@ public class Driver {
 		User user = new User("Rana", "KD55454");
 		
 		DataCleaner cleaner = new DataCleaner();
+		// Cleaning the user Object 
 		
 		cleaner.clean(user);
 
