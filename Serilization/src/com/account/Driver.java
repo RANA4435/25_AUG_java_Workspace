@@ -9,6 +9,7 @@ public class Driver {
 		Bank bank =new Bank("Suraj","Ranchi","45644344");
 		
 		acc.doSerMsg(bank);
+		System.out.println("Serialization is done");
 
 	}
 

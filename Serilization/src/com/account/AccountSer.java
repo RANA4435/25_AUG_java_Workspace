@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 public class AccountSer {
-	void doSerMsg(Bank bnak) throws IOException {
+	void doSerMsg(Bank bank) throws IOException {
 		FileOutputStream fis = new FileOutputStream("message.ser");
 		
 		ObjectOutputStream oos = new ObjectOutputStream(fis);
 		
-		oos.writeObject(oos);
+		oos.writeObject(bank);
 		
 		oos.close();
 	}
