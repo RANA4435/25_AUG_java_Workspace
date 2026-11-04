@@ -11,7 +11,7 @@ public class Driver {
 		
 		Employee clonedObj = (Employee) emp1.clone();
 		
-		//emp1.department.location="5th florr";
+		// emp1.department.location="5th florr";
 		
 		System.out.println(" Cloned Object before changing..."+clonedObj.department.location);
 		System.out.println("Original before changing.."+emp1.department.location);
