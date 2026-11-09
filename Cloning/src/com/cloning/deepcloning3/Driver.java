@@ -11,7 +11,7 @@ public class Driver {
 		System.out.println(clonedObj.hospital.hospitalName);
 		System.out.println(doctor.hospital.hospitalName);
 		
-		clonedObj.hospital.hospitalName="sita clinic";
+		clonedObj.hospital.hospitalName="Sita clinic";
 		
 		System.out.println(clonedObj.hospital.hospitalName);
 		System.out.println(doctor.hospital.hospitalName);
